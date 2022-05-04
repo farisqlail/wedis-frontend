@@ -6,18 +6,23 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <div class="container text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3 address">
           <div class="logo font-red-hat-display">
-               <a class="modal-title" id="targetModalLabel">
-                  <img
-                    style="margin-top: 0.5rem"
-                    src="../assets/images/logo-putih.png"
-                    width="120px"
-                  />
-                </a>
+            <a class="modal-title" id="targetModalLabel">
+              <img
+                style="margin-top: 0.5rem"
+                src="../assets/images/logo-putih.png"
+                width="120px"
+              />
+            </a>
           </div>
           <div class="social-media">
             <a href="https://www.facebook.com/wedisdotco" target="blank">
@@ -41,45 +46,33 @@
         </div>
         <hr class="clearfix w-100 d-md-none pb-3" />
         <div class="row col-md-6 nav-footer">
-          <div class="col-md-4 mb-md-0 mb-3">
-            <p>Features</p>
+          <div class="col-md-6 mb-md-0 mb-3">
+            <p>Fitur</p>
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Payments</a>
+                <a href="#!">Portfolio</a>
               </li>
               <li>
-                <a href="#!">Collections</a>
+                <a href="#!">Artikel</a>
               </li>
               <li>
-                <a href="#!">Conversions</a>
+                <a href="#!">Tentang Kami</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4 mb-md-0 mb-3">
-            <p>Resources</p>
+          <div class="col-md-6 mb-md-0 mb-3">
+            <p>Kontak</p>
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Blog</a>
-              </li>
-              <li>
-                <a href="#!">FAQ</a>
-              </li>
-              <li>
-                <a href="#!">Partnerships</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 mb-md-0 mb-3">
-            <p>Our Company</p>
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">About Us</a>
-              </li>
-              <li>
-                <a href="#!">Careers</a>
-              </li>
-              <li>
-                <a href="#!">News & Media</a>
+                <span class="text-white">
+                  <img
+                    src="../assets/images/logo-wa.png"
+                    alt="wa"
+                    class="img-fluid "
+                    width="50px"
+                  />
+                  : +62 878-7850-8854</span
+                >
               </li>
             </ul>
           </div>
@@ -107,7 +100,7 @@ body footer {
 }
 
 body footer {
-  background: #0f0f0f;
+  background: #2c3e57;
   padding-top: 50px;
   padding-bottom: 70px;
 }

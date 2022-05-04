@@ -1,5 +1,5 @@
 <template>
-<!-- Section Hero -->
+  <!-- Section Hero -->
   <section
     class="h-100 w-100"
     style="box-sizing: border-box; background-color: #f9f7f7"
@@ -107,7 +107,10 @@
             "
           >
             <!-- <p class="text-caption">FREE 30 DAY TRIAL</p> -->
-            <h1 class="title-text-big mt-5" style="font-size: 40px; color: #2c3e57;">
+            <h1
+              class="title-text-big mt-5"
+              style="font-size: 40px; color: #2c3e57"
+            >
               Wedis adalah <br class="d-lg-block d-none" />
               penyedia layanan untuk membantu menyelesaikan proyek
             </h1>
@@ -123,7 +126,7 @@
             >
               <button
                 class="btn d-inline-flex mb-md-0 btn-try text-white border-0"
-                style="background-color: #2c3e57;"
+                style="background-color: #2c3e57"
               >
                 Konsultasi Sekarang
               </button>
@@ -170,7 +173,7 @@
   </section>
   <!-- End Section Hero -->
 
-<!-- Section Konsultasi -->
+  <!-- Section Konsultasi -->
   <section
     class="h-100 w-100"
     style="box-sizing: border-box; background-color: #f9f7f7"
@@ -180,7 +183,7 @@
       style="font-family: 'Poppins', sans-serif"
     >
       <div class="text-center title-text">
-        <h1 class="text-title" style="margin-top: 50px; color: #2c3e57;">
+        <h1 class="text-title" style="margin-top: 50px; color: #2c3e57">
           Kenapa Wedis ?
         </h1>
         <p class="text-caption" style="margin-left: 3rem; margin-right: 3rem">
@@ -197,7 +200,7 @@
                 alt=""
               />
             </div>
-            <h3 class="icon-title" style="color: #2c3e57;">Teknologi</h3>
+            <h3 class="icon-title" style="color: #2c3e57">Teknologi</h3>
             <p class="icon-caption">
               Kami mengembangkan Android, aplikasi web, <br />
               dan e-commerce.
@@ -210,7 +213,7 @@
                 alt=""
               />
             </div>
-            <h3 class="icon-title" style="color: #2c3e57;">Strategi</h3>
+            <h3 class="icon-title" style="color: #2c3e57">Strategi</h3>
             <p class="icon-caption">
               Kami membantu Anda memahami pelanggan dan membuat <br />
               cetak biru untuk memecahkan masalah
@@ -223,7 +226,7 @@
                 alt=""
               />
             </div>
-            <h3 class="icon-title" style="color: #2c3e57;">Komunikasi</h3>
+            <h3 class="icon-title" style="color: #2c3e57">Komunikasi</h3>
             <p class="icon-caption">
               Kami memberikan pelayanan dengan Komunikasi <br />
               yang interaktif melalui segala sosial media kami.
@@ -233,7 +236,7 @@
       </div>
 
       <div class="card-block">
-        <div class="card" style="background-color: #2c3e57;">
+        <div class="card shadow-lg" style="background-color: #2c3e57">
           <div class="d-flex flex-lg-row flex-column align-items-center">
             <div class="me-lg-3">
               <img
@@ -251,7 +254,12 @@
               </p>
             </div>
             <div class="card-btn-space">
-              <button class="btn btn-card text-white" style="background-color: #bbaf8d;">Konsultasi</button>
+              <button
+                class="btn btn-card text-white"
+                style="background-color: #bbaf8d"
+              >
+                Konsultasi
+              </button>
               <button class="btn btn-outline">Portfolio</button>
             </div>
           </div>
@@ -260,7 +268,7 @@
     </div>
   </section>
   <!-- End Section Konsultasi -->
-  
+
   <!-- Section Pricing -->
   <section
     class="h-100 w-100"
@@ -281,10 +289,9 @@
           class="d-flex flex-column text-center w-100"
           style="margin-bottom: 2.25rem"
         >
-          <h2 class="title-text" style="color: #f9f7f7;">Pricing That Everyone Works</h2>
+          <h2 class="title-text" style="color: #f9f7f7">Paket Harga</h2>
           <p class="caption-text mx-auto">
-            Choose one of our friendly pricing that suitable<br />
-            for your business to grow bigger
+            Temukan pilihan paket harga yang tepat untuk kebutuhan bisnis Anda
           </p>
         </div>
         <div class="d-flex flex-wrap">
@@ -657,88 +664,9 @@
       </div>
     </div>
   </section>
+  <!-- End Pricing Section -->
 
-  <section class="left-circle">
-    <div class="d-flex justify-content-start">
-      <img
-        src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/Left-Circle.png"
-        alt="circle"
-      />
-    </div>
-  </section>
-
-  <section class="client">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1 class="text-center">
-            Trusted by over 400 global leading companies
-          </h1>
-        </div>
-      </div>
-      <div class="row mt-5 client-img d-flex justify-content-center mx-0">
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-1.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-2.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-3.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-4.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-5.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/client-6.png"
-          alt="client"
-          class="img-fluid mx-2 mx-md-4"
-        />
-      </div>
-    </div>
-    <div class="container review-section">
-      <div class="row">
-        <div class="col-md-5 px-5 mt-4 mt-md-0">
-          <img
-            src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/profile-client.png"
-            alt=""
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-md-7 mt-4 mt-md-0">
-          <div class="text-right">
-            <img
-              src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/petik.png"
-              alt="mark"
-              class="img-fluid"
-            />
-          </div>
-          <p class="review">
-            Since I used Work.ly, now I can have a decent workflow. There are
-            also some improvements that are felt by my fellow workers. I am very
-            happy using this platform and I recommend Work.ly to all of you
-            guys!
-          </p>
-          <h5 class="mt-5">John Doe</h5>
-          <p class="company">Sharp Indonesia</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: PRODUCTS -->
+  <!-- Section Portfolio -->
   <section class="products">
     <section class="right-circle">
       <div class="d-flex justify-content-end">
@@ -749,52 +677,53 @@
       </div>
     </section>
 
-    <section class="porto">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-10">
-          <h4 class="headline">Outputs from Our Platform</h4>
+    <section class="porto" style="background-color: #f9f7f7;">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-10">
+            <h4 class="headline" style="color: #2c3e57;">Portfolio Kami</h4>
+          </div>
+          <div class="col-md-2 text-md-right">
+            <a href="#" class="link h-100 d-inline-block text-decoration-none" style="color: #2c3e57; font-size: 20px;">
+              Selengkapnya
+            </a>
+          </div>
         </div>
-        <div class="col-md-2 text-md-right">
-          <a href="#" class="link h-100 d-inline-block text-decoration-none">
-            See more
-          </a>
+        <div class="row">
+          <div class="col">
+            <p class="sub-headline">
+              Ini adalah beberapa portfolio yang kami miliki.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="sub-headline">
-            Our platform specialize on helping our clients work process and
-            communication. <br />
-            Below are the products produced using our platform.
-          </p>
-        </div>
-      </div>
-      <div class="row porto-img">
-        <div class="col-4">
-          <img
-            src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-1.png"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-4 d-flex align-items-end flex-column">
-          <img
-            src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-2.png"
-            class="img-fluid"
-          />
-          <img
-            src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-3.png"
-            class="img-fluid mt-auto"
-          />
-        </div>
-        <div class="col-4">
-          <img
-            src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-4.png"
-            class="img-fluid"
-          />
+        <div class="row porto-img">
+          <div class="col-4">
+            <img
+              src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-1.png"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-4 d-flex align-items-end flex-column">
+            <img
+              src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-2.png"
+              class="img-fluid"
+            />
+            <img
+              src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-3.png"
+              class="img-fluid mt-auto"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/porto-4.png"
+              class="img-fluid"
+            />
+          </div>
         </div>
       </div>
     </section>
   </section>
+  <!-- End Section Portfolio -->
   <Footer />
 </template>
 
