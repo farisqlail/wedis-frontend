@@ -19,7 +19,7 @@
             <a class="modal-title" id="targetModalLabel">
               <img
                 style="margin-top: 0.5rem"
-                src="../assets/images/logo-putih.png"
+                src="@/assets/images/logo-putih.png"
                 width="120px"
               />
             </a>
@@ -66,7 +66,7 @@
               <li>
                 <span class="text-white">
                   <img
-                    src="../assets/images/logo-wa.png"
+                    src="@/assets/images/logo-wa.png"
                     alt="wa"
                     class="img-fluid "
                     width="50px"
