@@ -12,7 +12,7 @@
         <a href="#">
           <img
             style="margin-right: 0.75rem; width: 100px"
-            src="@/assets/images/logo-Font.png"
+            src="@/assets/images/Logo-Font.png"
           />
         </a>
         <button
