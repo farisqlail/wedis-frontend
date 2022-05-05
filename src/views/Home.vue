@@ -35,7 +35,7 @@
           <div class="modal-dialog" role="document">
             <div
               class="modal-content border-0"
-              style="background-color: #141432"
+              style="background-color: #f9f7f7"
             >
               <div
                 class="modal-header border-0"
@@ -43,9 +43,8 @@
               >
                 <a class="modal-title" id="targetModalLabel">
                   <img
-                    style="margin-top: 0.5rem"
-                    src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header2/Header-2-3.png"
-                    alt=""
+                    style="margin-right: 0.75rem; width: 100px"
+                    src="@/assets/images/Logo-Font.png"
                   />
                 </a>
                 <button
@@ -53,15 +52,34 @@
                   class="close btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
+                  style="color: #141432"
                 ></button>
               </div>
               <div
                 class="modal-footer border-0 gap-3"
                 style="padding: 2rem; padding-top: 0.75rem"
               >
-                <button class="btn btn-fill border-0 text-white">
-                  Chat Us
-                </button>
+                <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo"> -->
+                  <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#" style="color: #525298"
+                        >Beranda</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Artikel</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                  </ul>
+                <!-- </div> -->
               </div>
             </div>
           </div>
@@ -677,14 +695,18 @@
       </div>
     </section>
 
-    <section class="porto" style="background-color: #f9f7f7;">
+    <section class="porto" style="background-color: #f9f7f7">
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-10">
-            <h4 class="headline" style="color: #2c3e57;">Portfolio Kami</h4>
+            <h4 class="headline" style="color: #2c3e57">Portfolio Kami</h4>
           </div>
           <div class="col-md-2 text-md-right">
-            <a href="#" class="link h-100 d-inline-block text-decoration-none" style="color: #2c3e57; font-size: 20px;">
+            <a
+              href="#"
+              class="link h-100 d-inline-block text-decoration-none"
+              style="color: #2c3e57; font-size: 20px"
+            >
               Selengkapnya
             </a>
           </div>
