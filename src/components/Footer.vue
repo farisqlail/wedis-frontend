@@ -44,7 +44,7 @@
             2022 All rights reserved.
           </div>
         </div>
-        <hr class="clearfix w-100 d-md-none pb-3" />
+        <hr class="clearfix w-100 d-md-none pb-3" style="background-color: #2c3e57;" />
         <div class="row col-md-6 nav-footer">
           <div class="col-md-6 mb-md-0 mb-3">
             <p>Fitur</p>
@@ -94,7 +94,7 @@ body .font-red-hat-display {
   font-family: "Red Hat Display", sans-serif !important;
 }
 body footer {
-  background: #313e60;
+  background: #2c3e57;
   padding-top: 50px;
   padding-bottom: 70px;
 }

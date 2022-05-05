@@ -686,14 +686,6 @@
 
   <!-- Section Portfolio -->
   <section class="products">
-    <section class="right-circle">
-      <div class="d-flex justify-content-end">
-        <img
-          src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content-workly/Right-Circle.png"
-          alt="circle"
-        />
-      </div>
-    </section>
 
     <section class="porto" style="background-color: #f9f7f7">
       <div class="container">
@@ -757,5 +749,8 @@ export default {
   components: {
     Footer,
   },
+  mounted() {
+    document.title = "Wedis | IT Project Solutions";
+  }
 };
 </script>
