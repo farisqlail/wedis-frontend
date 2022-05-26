@@ -1,46 +1,4 @@
-<template>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-      <router-link :to="{ name: 'Home' }">
-        <img
-          style="margin-right: 0.75rem; width: 100px"
-          src="@/assets/images/Logo-Font.png"
-        />
-      </router-link>
-    
-      <nav id="navbar" class="navbar ml-auto">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#about">Portfolio</a></li>
-          <li>
-            <router-link :to="{ name: 'Artikel' }" class="nav-link"
-              >Artikel</router-link
-            >
-          </li>
-          <li><a class="nav-link scrollto" href="#portfolio">Tentang Kami</a></li>
-          <li>
-            <router-link :to="{ name: 'Kontak' }" class="nav-link"
-              >Kontak</router-link
-            >
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-    </div>
-  </header>
-  <!-- End Header -->
-</template>
-<script>
-import css from "@/assets/base.css";
-// import js from "@/assets/base.js";
-export default {
-  mounted() {
-    document.title = "Artikel | Wedis";
-
-    (function () {
+(function () {
     "use strict";
 
     /**
@@ -177,6 +135,3 @@ export default {
     );
 
   })();
-  },
-};
-</script>

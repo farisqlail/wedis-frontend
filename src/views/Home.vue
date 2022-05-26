@@ -2,7 +2,11 @@
   <!-- Section Hero -->
   <section
     class="h-100 w-100"
-    style="box-sizing: border-box; background-color: #f9f7f7; margin-top: 100px"
+    style="
+      box-sizing: border-box;
+      background-color: #f9f7f7;
+      padding-top: 110px;
+    "
   >
     <div
       class="header-4-3 container-xxl mx-auto p-0 position-relative"
@@ -643,27 +647,15 @@
 <script>
 import css from "@/assets/base.css";
 import Footer from "@/components/Footer.vue";
-import Navbar from "@/components/Navbar.vue";	
+import Navbar from "@/components/Navbar.vue";
 export default {
   name: "Home",
   components: {
     Footer,
-    Navbar
+    Navbar,
   },
   mounted() {
     document.title = "Wedis | IT Project Solutions";
-    let selectHeader = select("#header");
-    if (selectHeader) {
-      const headerScrolled = () => {
-        if (window.scrollY > 100) {
-          selectHeader.classList.add("header-scrolled");
-        } else {
-          selectHeader.classList.remove("header-scrolled");
-        }
-      };
-      window.addEventListener("load", headerScrolled);
-      onscroll(document, headerScrolled);
-    }
   },
 };
 </script>
