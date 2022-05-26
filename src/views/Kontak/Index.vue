@@ -8,10 +8,10 @@
       background-color: #f9f7f7;
       padding-top: 110px;
     "
-    >
+  >
     <Navbar />
-    
-    <div class="container pb-5">
+
+    <div class="container pb-5 pt-5">
       <div class="card rounded shadow" style="border: none">
         <div class="card-body">
           <div class="row">
@@ -24,7 +24,25 @@
                 <l-marker :lat-lng="markerLatLng"></l-marker>
               </l-map>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="logo-kontak" align="center">
+                <img
+                  src="@/assets/images/Logo-Font.png"
+                  class="img-fluid"
+                  style="width: 250px"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <p class="mt-3">
+                  Katakan apa yang dapat kami bantu untuk mu ? Hubungi kami dinomor atau sosial media kami dibawah ini yaa.
+              </p>
+
+              <p>
+                  <i class="fa-solid fa-arrow-left"></i>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -53,7 +71,7 @@ export default {
   },
   data() {
     return {
-      url: ""
+      url: "",
     };
   },
 };
